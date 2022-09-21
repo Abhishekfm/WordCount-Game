@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700;800&display=swap');
+
+.page{
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+}
+
+body{
+    background-color: #CAD5E2;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+.input textarea{
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    resize: none;
+}
+
+.texty{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.texty div{
+    text-align: center;
+}
+
+.outer{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E07C24;
+    border-radius: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+    /* color: #E07C24; */
+    background-color: #242B2E;
+    color: #ffffff;
+}
+
+.outDiv{
+    text-align: center;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 40px;
+    /* color: #E07C24; */
+    /* text-shadow: 0px 0px 4p; */
+}
+
+@media screen and (max-width:611px) {
+    .outer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px) {
+    .input textarea{
+        width: 90%;
+    }
+}
